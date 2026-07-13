@@ -29,62 +29,10 @@ This project provides an automated analytics pipeline that:
   - Materialized reporting dataset generation
 
 ## Project Workflow
-Configuration
-      │
-      ▼
-Load Input Data
-      │
-      ▼
-Data Cleaning & Standardization
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-Issue & Solution Mapping
-      │
-      ▼
-Downtime Processing
-      │
-      ▼
-Farm Level Aggregation
-      │
-      ▼
-Reliability KPI Calculation
-      │
-      ▼
-Issue Level Analysis
-      │
-      ▼
-Solution Effectiveness Analysis
-      │
-      ▼
-Top N Issue Identification
-      │
-      ▼
-Priority Score Calculation
-      │
-      ▼
-Reporting Dataset Generation
+Configuration --> Load Input Data --> Data Cleaning & Standardization --> Feature Engineering --> Issue & Solution Mapping --> Downtime Processing --> Farm Level Aggregation --> Reliability KPI Calculation --> Issue Level Analysis --> Solution Effectiveness Analysis --> Top N Issue Identification -->Priority Score Calculation --> Reporting Dataset Generation
 
 ## Repository Structure
-.
-├── config/
-│   └── config.yaml
-│
-├── data/
-│   ├── input/
-│   └── output/
-│
-├── src/
-│   ├── data_ingestion/
-│   ├── data_processing/
-│   ├── reporting/
-│   └── utils/
-│
-├── main.py
-├── requirements.txt
-└── README.md
+
 <img width="597" height="516" alt="image" src="https://github.com/user-attachments/assets/e7fedbfd-ea4c-4b56-a2c8-96686182b8b8" />
 
 
@@ -97,7 +45,52 @@ Dataset	Purpose
 <img width="716" height="241" alt="image" src="https://github.com/user-attachments/assets/721a97bc-b56d-4ac8-b7f3-2fe004576ea5" />
 
 
-
 Dataset locations are configured through:
 
 config/config.yaml
+
+## Reliability KPIs
+
+The project calculates several operational KPIs, including:
+  - Intervention Rate
+  - Fault Rate
+  - MTBI
+  - MTTR
+  - FTFR
+  - % to Target
+  - % Intervention Rate Impact
+  - Priority Score
+  - Priority Ranking
+  - 
+## Output Files
+
+Running the pipeline generates multiple reporting datasets inside:
+data/output/
+
+<img width="716" height="217" alt="image" src="https://github.com/user-attachments/assets/38abd6e1-ffa1-4506-9066-1bb8634813dc" />
+
+# Installation
+
+### Clone the repository
+
+git clone https://github.com/<your-username>/wind-reliability-analytics.git
+
+cd wind-reliability-analytics
+
+### Create a virtual environment
+
+python -m venv .venv
+
+### Activate the environment
+
+#### Windows
+
+.venv\Scripts\activate
+
+#### Linux/macOS
+
+source .venv/bin/activate
+
+#### Install dependencies
+
+pip install -r requirements.txt

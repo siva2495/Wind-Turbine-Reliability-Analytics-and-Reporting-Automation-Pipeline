@@ -119,5 +119,7 @@ data/output/
 
 ## Author
 
-Sivakumar R
+**Sivakumar R**
+
+
 If you found this project useful, consider giving it a ⭐ on GitHub.

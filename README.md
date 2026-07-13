@@ -94,3 +94,30 @@ source .venv/bin/activate
 #### Install dependencies
 
 pip install -r requirements.txt
+
+## Run the Pipeline
+python main.py
+Generated outputs will be saved under
+data/output/
+
+## Technology Stack
+  - Python
+  - Pandas
+  - NumPy
+  - YAML
+  - CSV / Excel Processing
+
+## Typical Use Cases
+  - Wind farm reliability monitoring
+  - Fleet performance reporting
+  - Root cause analysis
+  - Maintenance prioritization
+  - Reliability engineering
+  - Operational KPI reporting
+  - Power BI dashboard integration
+  - Asset performance management
+
+## Author
+
+Sivakumar R
+If you found this project useful, consider giving it a ⭐ on GitHub.

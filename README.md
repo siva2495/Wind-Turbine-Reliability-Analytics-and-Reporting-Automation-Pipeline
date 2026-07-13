@@ -85,13 +85,18 @@ Reporting Dataset Generation
 ├── main.py
 ├── requirements.txt
 └── README.md
+<img width="597" height="516" alt="image" src="https://github.com/user-attachments/assets/e7fedbfd-ea4c-4b56-a2c8-96686182b8b8" />
+
 
 ## Input Datasets
 
 The pipeline uses the following operational datasets.
 
 Dataset	Purpose
+
 <img width="716" height="241" alt="image" src="https://github.com/user-attachments/assets/721a97bc-b56d-4ac8-b7f3-2fe004576ea5" />
+
+
 
 Dataset locations are configured through:
 

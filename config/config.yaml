@@ -1,0 +1,12 @@
+
+data_paths:
+  windpulse_solution:  "\\data\\input\\windpulse_solutions.csv"
+  rp_issue_library: "\\data\\input\\rp_issue_library.csv"
+  db_issue_fm: "\\data\\input\\DB_issuesFM.csv"
+  nc_mapping_combo: "\\data\\input\\NC_mapping_combo.csv"
+  abbreviated_region: "\\data\\input\\AbbreviatedRegion.csv"
+  vm_art_master: "\\data\\input\\vm_art_master_data.csv"
+  fleet_overview: "\\data\\input\\GlobalFleetOverview.csv"
+  downtime: "\\data\\input\\Downtimes2025-SeveralRegions-generations.xlsx"
+  fr_target2026: "\\data\\input\\fr_target_2026.csv"
+

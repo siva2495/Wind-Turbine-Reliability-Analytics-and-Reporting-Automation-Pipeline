@@ -91,15 +91,6 @@ Reporting Dataset Generation
 The pipeline uses the following operational datasets.
 
 Dataset	Purpose
-Wind Solution	Solution library
-RP Issue Library	Issue metadata
-DB Issue FM	Failure mode database
-NC Mapping Combo	Failure mapping
-VM ART Master	Turbine master data
-Fleet Overview	Fleet information
-Downtime	Operational downtime events
-Abbreviated Region	Region mapping
-FR Target 2026	Reliability targets
 <img width="716" height="241" alt="image" src="https://github.com/user-attachments/assets/721a97bc-b56d-4ac8-b7f3-2fe004576ea5" />
 
 Dataset locations are configured through:
